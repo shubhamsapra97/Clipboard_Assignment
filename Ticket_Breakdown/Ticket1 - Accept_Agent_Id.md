@@ -2,11 +2,12 @@
 Currently, the id of each Agent on the reports we generate is their internal database id. We'd like to add the ability for Facilities to save their own custom ids for each Agent they work with and use that id when generating reports for them.
 
 # Desired Outcome
-Facilties should be able to assign custom id to agents and should be able to view same id in the reports generated.
+Facilties should be able to see custom agent id input field in UI
 
 # Acceptance Criteria
 - Review Facility-Agent assigning functionality
-- While assigning agent to the facility, add input for facility to add custom agent id
+- On facility agent approval page, add input for facility to add custom agent id
+- Populate input with custom facility agent id in case custom facility agent id is already set.
 - Add Validations for the agent custom id input
 - Update the backend Query to include customAgentId field
 - Add unit tests to validate the logic
