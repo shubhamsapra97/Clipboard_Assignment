@@ -5,9 +5,9 @@ We updated backend logic to add the ability for Facilities to save their own cus
 We need to update generateReport related backend functionality to include the custom agent id field.
 
 # Acceptance Criteria
-- Review Add_Custom_Agent_Id_To_Db.md to understand facility agent mapping functionality
+- Review Ticket2 - Add_Custom_Agent_Id_To_Db.md to understand facility agent mapping functionality
 - Review generateReport logic to understand the current implementation
-- Update generateReport related backend to include facilityAgentId to the PDF generated.
+- Update generateReport related backend to include customAgentId to the PDF generated.
 - Add unit tests to validate the logic.
 
 # Time/Efforts Estimate
